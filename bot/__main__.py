@@ -3,7 +3,7 @@ from bot.gDrive import GoogleDriveHelper
 from bot.fs_utils import get_readable_file_size
 from bot import LOGGER, dispatcher, updater, bot, CLONE_DICT
 from bot.config import BOT_TOKEN, OWNER_ID, GDRIVE_FOLDER_ID
-from bot.decorators import is_authorised, is_owner
+from bot.decorators import  is_owner
 from telegram.error import TimedOut, BadRequest
 from bot.clone_status import CloneStatus
 from bot.msg_utils import deleteMessage, sendMessage
